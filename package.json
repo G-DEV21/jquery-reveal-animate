@@ -1,0 +1,11 @@
+{
+  "name": "jquery-reveal-animate",
+  "version": "1.0.0",
+  "description": "Scroll Reveal library built on Animation.css",
+  "main": "index.js",
+  "author": "Jie Qiu",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "jquery-reveal-animate",
+  "description": "Scroll Reveal library built on Animation.css",
+  "main": "src/jquery-reveal-animate.js",
+  "authors": [
+    "Jie Qiu"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "Scroll",
+    "Reveal",
+    "Animate.css",
+    "jQuery",
+    "Plugin"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "animate.css": "^3.5.2",
+    "jQuery": "^3.2.1"
+  }
+}
