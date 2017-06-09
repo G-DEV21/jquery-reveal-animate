@@ -23,7 +23,7 @@
     "tests"
   ],
   "main": [
-    "./dist/js/jquery-reveal-animate.min.js"
+    "./dist/js/jquery-reveal-animate.js"
   ],
   "dependencies": {
     "animate.css": "^3.5.2",
