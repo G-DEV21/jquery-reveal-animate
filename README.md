@@ -141,4 +141,4 @@ Full Example:
 ```
 
 ## License
-Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+jQuery-reveal-animate.js is licensed under the MIT license. (http://opensource.org/licenses/MIT)
