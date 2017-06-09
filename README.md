@@ -7,6 +7,7 @@ To install via Bower, simply do the following:
 
 ```bash
 $ bower install animate.css --save
+```
 
 
 ## Basic Usage
