@@ -1,4 +1,5 @@
 (function($) {
+	'use strict';
 
 	if (typeof $.fn.revealAnimate !== 'undefined') {
 		console.error('Unable to initialize jQuery Reveal Animate.');
@@ -19,7 +20,7 @@
 
 		var _isInView = function($element) {
 			var _currentViewTop = $(window).scrollTop(),
-				_currentTargetTop = $element.offset().top;
+				_currentTargetTop = $element.offset().top,
 				_currentTargetBottom = _currentTargetTop + $element.height();
 			
 			var bound = {
