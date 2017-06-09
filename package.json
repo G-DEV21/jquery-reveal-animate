@@ -6,6 +6,9 @@
   "author": "Jie Qiu",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "main-bower-files": "^2.13.1"
   }
 }
