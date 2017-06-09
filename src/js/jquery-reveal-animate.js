@@ -10,7 +10,6 @@
 				easing: 'slideInUp',
 				infinite: false
 			},
-			_config
 			_animatedClass = 'animated',
 			_domList = {},
 			_randPrecision = 6,
