@@ -6,12 +6,14 @@ var options = {
 
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
+var jshint = require('gulp-jshint');
 var rename = require('gulp-rename');
 var mainBowerFiles = require('main-bower-files');
 
 // Clean up all scripts
 gulp.task('scripts', function() {
 	return gulp.src(options.src + '/js/*')
+		.pipe(jshint())
 		.pipe(uglify())
 		.pipe(rename({ suffix: '.min' }))
 		.pipe(gulp.dest(options.dist + 'js'));

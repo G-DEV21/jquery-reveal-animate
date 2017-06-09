@@ -7,8 +7,10 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.4",
     "main-bower-files": "^2.13.1"
   }
 }
